@@ -19,7 +19,8 @@ const aHome = document.getElementById('aHome');
 
 
 
-const address = '0x2e2b0001A14Aa207dBC09861476b58c60E003896';
+// const address = '0x2e2b0001A14Aa207dBC09861476b58c60E003896';
+const address = '0x58feD4C4607f1313c3E7e2b08D57d2c91Ef3E9A8';
 //import * as data from '../contract/contract.json';
 
 //var web3 = new Web3(Web3.givenProvider);
