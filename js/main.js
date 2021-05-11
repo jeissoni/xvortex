@@ -26,7 +26,7 @@ const address = '0x58feD4C4607f1313c3E7e2b08D57d2c91Ef3E9A8';
 //var web3 = new Web3(Web3.givenProvider);
 
 var ventaAbi;
-fetch("../contract/contract.json")
+fetch("contract/contract.json")
 .then(response => {
    return response.json();
 })
@@ -132,7 +132,7 @@ async function buyTokens(){
 
 
 async function fnAbautUs (){  
-  const url = '../html/aboutUs.html'; 
+  const url = 'html/aboutUs.html'; 
   dvContent.innerHTML = await fetchHtmlAsText(url);
   nvBar.className = 'navbar navbar-expand-lg navbar-dark fondo-verde pt-lg-3 pt-2 aos-init aos-animate';
   
@@ -140,28 +140,28 @@ async function fnAbautUs (){
 
 
 async function fnBlog (){
-  const url = '../html/blog.html';
+  const url = 'html/blog.html';
   dvContent.innerHTML = await fetchHtmlAsText(url);
   nvBar.className = 'navbar navbar-expand-lg navbar-dark fondo-azul pt-lg-3 pt-2 aos-init aos-animate';
 }
 
 
 async function fnClass(){
-  const url = '../html/class.html';
+  const url = 'html/class.html';
   dvContent.innerHTML = await fetchHtmlAsText(url);
   nvBar.className = 'navbar navbar-expand-lg navbar-dark fondo-rosa pt-lg-3 pt-2 aos-init aos-animate';
 }
 
 
 async function fnContact(){
-  const url = '../html/contact.html';
+  const url = 'html/contact.html';
   dvContent.innerHTML = await fetchHtmlAsText(url);
   nvBar.className = 'navbar navbar-expand-lg navbar-dark fondo-morado pt-lg-3 pt-2 aos-init aos-animate';
 }
 
 
 async function fnHome(){
-  window.location.href = '../html/index.html';
+  window.location.href = 'index.html';
 }
 
 
@@ -172,7 +172,7 @@ async function fnInvestment(event){
     // const dvContent = document.getElementById('dvContent');
 
     
-    const url = '../html/investment.html'; 
+    const url = 'html/investment.html'; 
     dvContent.innerHTML = await fetchHtmlAsText(url);   
     nvBar.className = 'navbar navbar-expand-lg navbar-dark fondo-naranja pt-lg-3 pt-2 aos-init aos-animate';
 
